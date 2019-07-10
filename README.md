@@ -12,6 +12,13 @@ WEBPACK-CSS
 - babel7
 - dart-sass
 
+## 案例
+
+打包element ui主题 [vve-element-theme](https://github.com/vue-viewer-editor/vve-element-theme)
+
+打包iconfont字体 [vve-rjyr-iconfont](https://github.com/vue-viewer-editor/vve-rjyr-iconfont)
+
+
 ## 开发
 
 - 安装依赖
