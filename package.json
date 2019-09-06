@@ -2,8 +2,8 @@
   "name": "webpack-sass",
   "version": "1.0.2",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
-    "build": "webpack -p",
+    "start": "webpack-dev-server --open --mode development --env.NODE_ENV=development",
+    "build": "webpack -p --env.NODE_ENV=production",
     "release": "npm run build && standard-version"
   },
   "files": [
@@ -16,8 +16,11 @@
     "autoprefixer": "^9.5.1",
     "babel-loader": "^8.0.0",
     "browserslist": "^4.5.4",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^1.0.1",
     "fibers": "^4.0.1",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.6.0",
     "postcss-loader": "^3.0.0",
     "sass": "^1.18.0",

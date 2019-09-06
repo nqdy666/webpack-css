@@ -11,6 +11,7 @@ WEBPACK-CSS
 - webpack4
 - babel7
 - dart-sass
+- 支持打包多个css
 
 ## 案例
 
@@ -30,7 +31,12 @@ npm install
 - 开发
 
 ```bash
-npm run dev
+npm start
+```
+
+或者指定某个entry
+```
+npm start --evn.SINGLE_ENTRY=main
 ```
 
 - 打包
