@@ -33,10 +33,8 @@ npm install
 
 ```bash
 npm start
-```
 
-或者指定某个entry
-```
+# 或者指定某个entry
 npm start -- --evn.SINGLE_ENTRY=main
 ```
 

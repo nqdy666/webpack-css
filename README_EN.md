@@ -6,7 +6,7 @@ WEBPACK-CSS
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![build status](https://travis-ci.org/nqdy666/webpack-css.svg?branch=master)](https://travis-ci.org/nqdy666/webpack-css.svg?branch=master)
 
-> [English Document](./README_EN.md)
+> [中文](./README.md)
 
 ## Features
 - webpack4
@@ -32,14 +32,12 @@ npm install
 
 ```bash
 npm run dev
-```
 
-or designate a entry
-```
+# or designate a entry
 npm start -- --evn.SINGLE_ENTRY=main
 ```
 
-- Bale
+- Package
 
 ```bash
 npm run build
