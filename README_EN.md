@@ -4,6 +4,7 @@ WEBPACK-CSS
 
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![build status](https://travis-ci.org/nqdy666/webpack-css.svg?branch=master)](https://travis-ci.org/nqdy666/webpack-css.svg?branch=master)
 
 > [English Document](./README_EN.md)
 
@@ -35,7 +36,7 @@ npm run dev
 
 or designate a entry
 ```
-npm start --evn.SINGLE_ENTRY=main
+npm start -- --evn.SINGLE_ENTRY=main
 ```
 
 - Bale
