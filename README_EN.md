@@ -11,6 +11,7 @@ WEBPACK-CSS
 - webpack4
 - babel7
 - dart-sass
+- support package multi css
 
 ## Cases
 
@@ -23,25 +24,30 @@ Package iconfont [vve-rjyr-iconfont](https://github.com/vue-viewer-editor/vve-rj
 - Installation dependencies
 
 ```bash
-Npm install
+npm install
 ```
 
 - Development
 
 ```bash
-Npm run dev
+npm run dev
+```
+
+or designate a entry
+```
+npm start --evn.SINGLE_ENTRY=main
 ```
 
 - Bale
 
 ```bash
-Npm run build
+npm run build
 ```
 
 - Release
 
 ```bash
-Npm run release
+npm run release
 Git push --follow-tags origin master && npm publish
 ```
 
